@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cute"
+        tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintGuide_percent="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivForrestGump"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideLine"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/forrest_gump" />
+
+        <TextView
+            android:id="@+id/tvForrestGump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/forrest_gump"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivForrestGump"
+            app:layout_constraintTop_toBottomOf="@+id/ivForrestGump" />
+
+        <Button
+            android:id="@+id/btForrestGump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/ivForrestGump"
+            app:layout_constraintTop_toBottomOf="@+id/tvForrestGump" />
+
+        <ImageView
+            android:id="@+id/ivGreenMile"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideLine"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/green_mile" />
+
+        <TextView
+            android:id="@+id/tvGreenMile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/green_mile"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivGreenMile"
+            app:layout_constraintTop_toBottomOf="@+id/ivGreenMile" />
+
+        <Button
+            android:id="@+id/btGreenMile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/ivGreenMile"
+            app:layout_constraintTop_toBottomOf="@+id/tvGreenMile" />
+
+        <ImageView
+            android:id="@+id/ivInception"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideLine"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btForrestGump"
+            app:srcCompat="@drawable/inception" />
+
+        <TextView
+            android:id="@+id/tvInception"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/nception"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivInception"
+            app:layout_constraintTop_toBottomOf="@+id/ivInception" />
+
+        <Button
+            android:id="@+id/btInception"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/ivInception"
+            app:layout_constraintTop_toBottomOf="@+id/tvInception" />
+
+        <ImageView
+            android:id="@+id/ivInterstellar"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideLine"
+            app:layout_constraintTop_toBottomOf="@+id/btGreenMile"
+            app:srcCompat="@drawable/interstellar" />
+
+        <TextView
+            android:id="@+id/tvInterstellar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/interstellar"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivInterstellar"
+            app:layout_constraintTop_toBottomOf="@+id/ivInterstellar" />
+
+        <Button
+            android:id="@+id/btInterstellar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/tvInterstellar"
+            app:layout_constraintTop_toBottomOf="@+id/tvInterstellar" />
+
+        <ImageView
+            android:id="@+id/ivIntouchables"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideLine"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btInception"
+            app:srcCompat="@drawable/intouchables" />
+
+        <TextView
+            android:id="@+id/tvIntouchables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/intouchables"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivIntouchables"
+            app:layout_constraintTop_toBottomOf="@+id/ivIntouchables" />
+
+        <Button
+            android:id="@+id/btIntouchables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/ivIntouchables"
+            app:layout_constraintTop_toBottomOf="@+id/tvIntouchables" />
+
+        <ImageView
+            android:id="@+id/ivShrek"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideLine"
+            app:layout_constraintTop_toBottomOf="@+id/btInterstellar"
+            app:srcCompat="@drawable/shrek" />
+
+        <TextView
+            android:id="@+id/tvShrek"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:lines="1"
+            android:singleLine="false"
+            android:text="@string/shrek"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/ivShrek"
+            app:layout_constraintTop_toBottomOf="@+id/ivShrek" />
+
+        <Button
+            android:id="@+id/btShrek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/ivShrek"
+            app:layout_constraintTop_toBottomOf="@+id/tvShrek" />
+
+        <ImageView
+            android:id="@+id/ivLionKing"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideLine"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btIntouchables"
+            app:srcCompat="@drawable/lion_king" />
+
+        <TextView
+            android:id="@+id/tvLionKing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/lion_king"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivLionKing"
+            app:layout_constraintTop_toBottomOf="@+id/ivLionKing" />
+
+        <Button
+            android:id="@+id/btLionKing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/ivLionKing"
+            app:layout_constraintTop_toBottomOf="@+id/tvLionKing" />
+
+        <ImageView
+            android:id="@+id/ivMatrix"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideLine"
+            app:layout_constraintTop_toBottomOf="@+id/btShrek"
+            app:srcCompat="@drawable/matrix" />
+
+        <TextView
+            android:id="@+id/tvMatrix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/matrix"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivMatrix"
+            app:layout_constraintTop_toBottomOf="@+id/ivMatrix" />
+
+        <Button
+            android:id="@+id/btMatrix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            app:layout_constraintStart_toStartOf="@+id/ivMatrix"
+            app:layout_constraintTop_toBottomOf="@+id/tvMatrix" />
+
+        <ImageView
+            android:id="@+id/ivPulpFiction"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideLine"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btLionKing"
+            app:srcCompat="@drawable/pulp_fiction" />
+
+        <TextView
+            android:id="@+id/tvPulpFiction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pulp_fiction"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivPulpFiction"
+            app:layout_constraintTop_toBottomOf="@+id/ivPulpFiction" />
+
+        <Button
+            android:id="@+id/btPulpFiction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/details"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/ivPulpFiction"
+            app:layout_constraintTop_toBottomOf="@+id/tvPulpFiction" />
+
+        <ImageView
+            android:id="@+id/ivShawshank"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideLine"
+            app:layout_constraintTop_toBottomOf="@+id/btMatrix"
+            app:srcCompat="@drawable/shawshank_redemption" />
+
+        <TextView
+            android:id="@+id/tvShawshank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/hawshank_redemption"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/ivShawshank"
+            app:layout_constraintTop_toBottomOf="@+id/ivShawshank" />
+
+        <Button
+            android:id="@+id/btShawshank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/details"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/ivShawshank"
+            app:layout_constraintTop_toBottomOf="@+id/tvShawshank" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

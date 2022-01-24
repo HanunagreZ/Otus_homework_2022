@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OtusFilms</string>
+    <string name="forrest_gump">Форрест Гамп</string>
+    <string name="green_mile">Зеленая миля</string>
+    <string name="nception">Начало</string>
+    <string name="interstellar">Интерстеллар</string>
+    <string name="intouchables">1+1</string>
+    <string name="shrek">Шрек</string>
+    <string name="lion_king">Король лев</string>
+    <string name="matrix">Матрица</string>
+    <string name="pulp_fiction">Криминальное чтиво</string>
+    <string name="hawshank_redemption">Побег из Шоушенка</string>
+    <string name="details">Детали</string>
+    <string name="checkBox">Нравится</string>
+    <string name="share">готово/назад</string>
+    <string name="comment">Оставьте комментарий</string>
+    <string name="shareFriend">Поделиться с другом</string>
+</resources>
